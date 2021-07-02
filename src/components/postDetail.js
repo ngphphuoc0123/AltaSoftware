@@ -3,7 +3,6 @@ import { fetchComments, fetchDeletePost } from '../api/api';
 import ShowCmt from './showCmt';
 
 const PostDetail = ({ post }) => {
-    console.log(post);
     const [showComment, setShowComment] = useState(false)
     const [cmt, setCmt] = useState()
     useEffect(() => {
