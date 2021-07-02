@@ -1,0 +1,15 @@
+.post {
+    background-color: white;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+.handlePost{
+    display: flex;
+}
+.showComment {
+    padding-right: 1rem;
+    cursor: pointer;
+}
+.del{
+    cursor: pointer;
+}
